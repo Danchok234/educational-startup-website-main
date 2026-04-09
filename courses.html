@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курси та пакети — PrivatLesson | Репетиторство з математики, німецької та англійської</title>
+    <meta name="description" content="Ознайомтеся з нашими пакетами курсів та окремими предметами. Пакети Starter, Standard та Intensive для приватного репетиторства з математики, німецької та англійської мов.">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/privatlesson.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/preloader.svg" alt="Loading PrivatLesson">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header-area sticky-header">
+        <div class="header__container">
+            <div class="header__main">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo/logo.svg" alt="PrivatLesson logo">
+                </a>
+                <div class="main-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Головна</a></li>
+                            <li class="active"><a href="courses.html">Курси</a></li>
+                            <li><a href="about.html">Про нас</a></li>
+                            <li><a href="contact.html">Контакти</a></li>
+                            <li><a href="vacancies.html">Вакансії</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <a href="https://dashboard.lumind.space/node/demo/page-register" class="btn-one nav-cta d-none d-lg-inline-flex">Безкоштовний урок <i class="fa-light fa-arrow-right-long"></i></a>
+                <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo"><img src="assets/images/logo/logo-light.svg" alt="PrivatLesson logo"></a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="fa-regular fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body sidebar__body">
+            <div class="mobile-menu overflow-hidden"></div>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- Page Intro -->
+        <section class="courses-page-section" style="background: var(--bg-tertiary); padding: 80px 0 64px;">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ПАКЕТИ КУРСІВ</h5>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Оберіть предмет &amp; <span>виберіть свій план</span></h2>
+                    <p class="section-subtitle wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">Кожен предмет пропонує три плани занять — від епізодичної підтримки до інтенсивної підготовки до іспитів. Більше занять — більша економія.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Navigation Tabs -->
+        <div class="course-tab-nav-wrap">
+            <div class="container">
+                <nav class="course-tab-nav" aria-label="Jump to subject">
+                    <a href="#math-bundles" class="course-tab-nav__item">
+                        <span class="course-tab-nav__icon" style="background: rgba(59,130,246,0.12); color: #3b82f6;">
+                            <i class="fa-solid fa-calculator"></i>
+                        </span>
+                        <span class="course-tab-nav__label">Математика</span>
+                    </a>
+                    <a href="#german-bundles" class="course-tab-nav__item">
+                        <span class="course-tab-nav__icon" style="background: rgba(202,138,4,0.12); color: #ca8a04;">
+                            <i class="fa-solid fa-language"></i>
+                        </span>
+                        <span class="course-tab-nav__label">Німецька</span>
+                    </a>
+                    <a href="#english-bundles" class="course-tab-nav__item">
+                        <span class="course-tab-nav__icon" style="background: rgba(191,37,47,0.12); color: #bf252f;">
+                            <i class="fa-solid fa-spell-check"></i>
+                        </span>
+                        <span class="course-tab-nav__label">Англійська</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- ─── Mathematics Bundles ─── -->
+        <section id="math-bundles" class="courses-page-section subject-bundles-section" style="background: var(--white);">
+            <div class="container">
+                <div class="subject-section-header wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="subject-section-header__icon" style="background: rgba(59,130,246,0.1); color: #3b82f6;">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <div class="subject-section-header__content">
+                        <h2>Математика</h2>
+                        <p>Від базової арифметики до вищої математики. Ми будуємо впевненість крок за кроком — у вашому темпі, відповідно до вашої програми.</p>
+                        <div class="subject-section-header__tags">
+                            <span>Алгебра</span>
+                            <span>Геометрія</span>
+                            <span>Математичний аналіз</span>
+                            <span>Статистика</span>
+                            <span>Всі рівні</span>
+                        </div>
+                    </div>
+                    <div class="subject-section-header__watermark" aria-hidden="true">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                </div>
+                <div class="row g-4 align-items-stretch">
+                    <!-- Math Starter -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--starter">
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot"></span>
+                                <span class="tier-dot"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-seedling"></i></div>
+                            <h3 class="bundle-card__title">Starter</h3>
+                            <p class="bundle-card__subtitle">4 заняття / місяць</p>
+                            <div class="bundle-card__price">450 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 4 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Допомога з домашнім завданням &amp; шкільна підтримка</li>
+                                <li><i class="fa-solid fa-check"></i> Основи алгебри &amp; геометрії</li>
+                                <li><i class="fa-solid fa-check"></i> Персональний план навчання</li>
+                                <li><i class="fa-solid fa-check"></i> Щомісячний звіт про прогрес</li>
+                                <li><i class="fa-solid fa-check"></i> Онлайн або очно</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Учнів, яким потрібна щотижнева підтримка для встигання за шкільною програмою.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--outline">Розпочати <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <!-- Math Standard (Featured) -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--featured">
+                            <span class="bundle-card__badge">Найпопулярніший</span>
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <h3 class="bundle-card__title">Standard</h3>
+                            <p class="bundle-card__subtitle">8 занять / місяць</p>
+                            <div class="bundle-card__price">420 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 8 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Повне охоплення шкільної програми</li>
+                                <li><i class="fa-solid fa-check"></i> Алгебра, геометрія &amp; статистика</li>
+                                <li><i class="fa-solid fa-check"></i> Пріоритетний розклад</li>
+                                <li><i class="fa-solid fa-check"></i> Щотижневі звіти про прогрес</li>
+                                <li><i class="fa-solid fa-check"></i> Безкоштовні практичні завдання</li>
+                                <li><i class="fa-solid fa-check"></i> Економія 7% порівняно зі Starter</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Учнів, які хочуть стабільного прогресу двічі на тиждень та повного охоплення програми.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--accent">Почати навчання <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <!-- Math Intensive -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--intensive">
+                            <span class="bundle-card__badge bundle-card__badge--savings">Найвигідніший</span>
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <h3 class="bundle-card__title">Intensive</h3>
+                            <p class="bundle-card__subtitle">12 занять / місяць</p>
+                            <div class="bundle-card__price">390 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 12 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Повна програма + підготовка до іспитів</li>
+                                <li><i class="fa-solid fa-check"></i> Підготовка до вступу до університету</li>
+                                <li><i class="fa-solid fa-check"></i> Пріоритетний розклад</li>
+                                <li><i class="fa-solid fa-check"></i> Зустрічі з прогресу раз на два тижні</li>
+                                <li><i class="fa-solid fa-check"></i> Безкоштовні навчальні матеріали</li>
+                                <li><i class="fa-solid fa-check"></i> Економія 13% порівняно зі Starter</li>
+                                <li><i class="fa-solid fa-check"></i> Особистий координатор репетитора</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Учнів, які готуються до випускних іспитів, Матури або вступних тестів до університету.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--primary">Отримати повний пакет <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ─── German Language Bundles ─── -->
+        <section id="german-bundles" class="courses-page-section subject-bundles-section" style="background: var(--sub-bg);">
+            <div class="container">
+                <div class="subject-section-header wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="subject-section-header__icon" style="background: rgba(202,138,4,0.1); color: #ca8a04;">
+                        <i class="fa-solid fa-language"></i>
+                    </div>
+                    <div class="subject-section-header__content">
+                        <h2>Німецька мова</h2>
+                        <p>Розмовна грамотність, оволодіння граматикою та підготовка до іспитів — від A1 до C2. Репетитори-носії мови супроводжують вас на кожному кроці.</p>
+                        <div class="subject-section-header__tags">
+                            <span>Граматика</span>
+                            <span>Розмовна мова</span>
+                            <span>Письмо</span>
+                            <span>Підготовка до іспитів</span>
+                            <span>A1 – C2</span>
+                        </div>
+                    </div>
+                    <div class="subject-section-header__watermark" aria-hidden="true">
+                        <i class="fa-solid fa-language"></i>
+                    </div>
+                </div>
+                <div class="row g-4 align-items-stretch">
+                    <!-- German Starter -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--starter">
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot"></span>
+                                <span class="tier-dot"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-seedling"></i></div>
+                            <h3 class="bundle-card__title">Starter</h3>
+                            <p class="bundle-card__subtitle">4 заняття / місяць</p>
+                            <div class="bundle-card__price">450 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 4 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Основи розмовної мови &amp; словниковий запас</li>
+                                <li><i class="fa-solid fa-check"></i> Основи граматики</li>
+                                <li><i class="fa-solid fa-check"></i> Персональний план навчання</li>
+                                <li><i class="fa-solid fa-check"></i> Щомісячний звіт про прогрес</li>
+                                <li><i class="fa-solid fa-check"></i> Онлайн або очно</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Початківців або учнів, які повторюють шкільний матеріал з німецької раз на тиждень.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--outline">Розпочати <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <!-- German Standard (Featured) -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--featured">
+                            <span class="bundle-card__badge">Найпопулярніший</span>
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-comments"></i></div>
+                            <h3 class="bundle-card__title">Standard</h3>
+                            <p class="bundle-card__subtitle">8 занять / місяць</p>
+                            <div class="bundle-card__price">420 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 8 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Повна граматика &amp; розмовне тренування</li>
+                                <li><i class="fa-solid fa-check"></i> Навички читання &amp; письма</li>
+                                <li><i class="fa-solid fa-check"></i> Пріоритетний розклад</li>
+                                <li><i class="fa-solid fa-check"></i> Щотижневі звіти про прогрес</li>
+                                <li><i class="fa-solid fa-check"></i> Безкоштовні списки слів &amp; матеріали</li>
+                                <li><i class="fa-solid fa-check"></i> Економія 7% порівняно зі Starter</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Учнів, які хочуть швидкого прогресу у вивченні мови завдяки регулярним структурованим урокам.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--accent">Почати навчання <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <!-- German Intensive -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--intensive">
+                            <span class="bundle-card__badge bundle-card__badge--savings">Найвигідніший</span>
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <h3 class="bundle-card__title">Intensive</h3>
+                            <p class="bundle-card__subtitle">12 занять / місяць</p>
+                            <div class="bundle-card__price">390 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 12 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Повне мовне навчання A1–C2</li>
+                                <li><i class="fa-solid fa-check"></i> Підготовка до Goethe / DSH / TestDaF</li>
+                                <li><i class="fa-solid fa-check"></i> Пріоритетний розклад</li>
+                                <li><i class="fa-solid fa-check"></i> Зустрічі з прогресу раз на два тижні</li>
+                                <li><i class="fa-solid fa-check"></i> Безкоштовні навчальні матеріали</li>
+                                <li><i class="fa-solid fa-check"></i> Економія 13% порівняно зі Starter</li>
+                                <li><i class="fa-solid fa-check"></i> Особистий координатор репетитора</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Учнів, які прагнуть офіційних сертифікатів з німецької або вступу до університетів у німецькомовних країнах.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--primary">Отримати повний пакет <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ─── English Language Bundles ─── -->
+        <section id="english-bundles" class="courses-page-section subject-bundles-section" style="background: var(--white);">
+            <div class="container">
+                <div class="subject-section-header wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="subject-section-header__icon" style="background: rgba(191,37,47,0.1); color: #bf252f;">
+                        <i class="fa-solid fa-spell-check"></i>
+                    </div>
+                    <div class="subject-section-header__content">
+                        <h2>Англійська мова</h2>
+                        <p>Загальна, ділова та академічна англійська з репетиторами з сертифікатом CELTA. Будуйте впевненість від A1 до C2 — або складіть IELTS та Cambridge.</p>
+                        <div class="subject-section-header__tags">
+                            <span>Ділова</span>
+                            <span>Академічна</span>
+                            <span>IELTS</span>
+                            <span>Cambridge</span>
+                            <span>A1 – C2</span>
+                        </div>
+                    </div>
+                    <div class="subject-section-header__watermark" aria-hidden="true">
+                        <i class="fa-solid fa-spell-check"></i>
+                    </div>
+                </div>
+                <div class="row g-4 align-items-stretch">
+                    <!-- English Starter -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--starter">
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot"></span>
+                                <span class="tier-dot"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-seedling"></i></div>
+                            <h3 class="bundle-card__title">Starter</h3>
+                            <p class="bundle-card__subtitle">4 заняття / місяць</p>
+                            <div class="bundle-card__price">450 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 4 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Практика щоденного спілкування</li>
+                                <li><i class="fa-solid fa-check"></i> Граматика &amp; поповнення словникового запасу</li>
+                                <li><i class="fa-solid fa-check"></i> Персональний план навчання</li>
+                                <li><i class="fa-solid fa-check"></i> Щомісячний звіт про прогрес</li>
+                                <li><i class="fa-solid fa-check"></i> Онлайн або очно</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Учнів, які хочуть стабільного щотижневого вдосконалення загальної англійської мови.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--outline">Розпочати <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <!-- English Standard (Featured) -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--featured">
+                            <span class="bundle-card__badge">Найпопулярніший</span>
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-globe"></i></div>
+                            <h3 class="bundle-card__title">Standard</h3>
+                            <p class="bundle-card__subtitle">8 занять / місяць</p>
+                            <div class="bundle-card__price">420 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 8 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Аудіювання, говоріння, читання &amp; письмо</li>
+                                <li><i class="fa-solid fa-check"></i> Ділова або академічна спрямованість</li>
+                                <li><i class="fa-solid fa-check"></i> Пріоритетний розклад</li>
+                                <li><i class="fa-solid fa-check"></i> Щотижневі звіти про прогрес</li>
+                                <li><i class="fa-solid fa-check"></i> Безкоштовні навчальні матеріали</li>
+                                <li><i class="fa-solid fa-check"></i> Економія 7% порівняно зі Starter</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Учнів, які розвивають усі чотири мовні навички з акцентом на вільне мовлення та впевненість.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--accent">Почати навчання <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <!-- English Intensive -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="bundle-card bundle-card--intensive">
+                            <span class="bundle-card__badge bundle-card__badge--savings">Найвигідніший</span>
+                            <div class="bundle-card__tier">
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                                <span class="tier-dot tier-dot--filled"></span>
+                            </div>
+                            <div class="bundle-card__icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <h3 class="bundle-card__title">Intensive</h3>
+                            <p class="bundle-card__subtitle">12 занять / місяць</p>
+                            <div class="bundle-card__price">390 CZK <span>/ заняття</span></div>
+                            <ul class="bundle-card__includes">
+                                <li><i class="fa-solid fa-check"></i> 12 × 60-хв уроки на місяць</li>
+                                <li><i class="fa-solid fa-check"></i> Повне мовне навчання A1–C2</li>
+                                <li><i class="fa-solid fa-check"></i> Підготовка до IELTS / Cambridge</li>
+                                <li><i class="fa-solid fa-check"></i> Пріоритетний розклад</li>
+                                <li><i class="fa-solid fa-check"></i> Зустрічі з прогресу раз на два тижні</li>
+                                <li><i class="fa-solid fa-check"></i> Безкоштовні навчальні матеріали</li>
+                                <li><i class="fa-solid fa-check"></i> Економія 13% порівняно зі Starter</li>
+                                <li><i class="fa-solid fa-check"></i> Особистий координатор репетитора</li>
+                            </ul>
+                            <p class="bundle-card__note"><strong>Найкраще для:</strong> Учнів, які цілять на IELTS, Cambridge B2/C1, або потребують швидких результатів для навчання за кордоном.</p>
+                            <a href="https://dashboard.lumind.space/node/demo/page-register" class="bundle-card__btn bundle-card__btn--primary">Отримати повний пакет <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="courses-page-section" style="background: var(--sub-bg);">
+            <div class="container" style="max-width: 800px;">
+                <div class="section-header mb-60 text-center">
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ЧАСТІ ПИТАННЯ</h5>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Запитання, що <span>часто задають</span></h2>
+                </div>
+                <div class="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <div class="faq-item active">
+                        <div class="faq-item__question" onclick="this.parentElement.classList.toggle('active')">
+                            Скільки триває кожен урок?
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            Кожен урок триває 60 хвилин. Цього часу вистачає для повторення, нового матеріалу та практики без втоми. За потреби ми також можемо організувати 90-хвилинні заняття.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question" onclick="this.parentElement.classList.toggle('active')">
+                            Чи можу я перемикатися між онлайн та очними заняттями?
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            Звичайно! Ви можете обирати формат для кожного окремого заняття. Онлайн-уроки проводяться через Zoom або Google Meet, а очні заняття — в нашому офісі в Празі.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question" onclick="this.parentElement.classList.toggle('active')">
+                            Що робити, якщо мені потрібно скасувати або перенести заняття?
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            Ми просимо повідомляти не менш ніж за 24 години про скасування або перенесення. За заняття, скасовані менш ніж за 24 години, може стягуватися 50% від вартості уроку.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question" onclick="this.parentElement.classList.toggle('active')">
+                            Чи пропонуєте ви безкоштовний пробний урок?
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            Так! Ми пропонуємо безкоштовний 30-хвилинний пробний урок, щоб ви могли познайомитися з репетитором, обговорити свої цілі та зрозуміти, чи підходить вам наш стиль навчання. <a href="https://dashboard.lumind.space/node/demo/page-register" style="color: var(--primary-color); font-weight: 600;">Запишіться на безкоштовний пробний урок тут</a>.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question" onclick="this.parentElement.classList.toggle('active')">
+                            Чи можу я змінити свій пакет пізніше?
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            Так, ви можете оновити або змінити свій пакет у будь-який час. Якщо ви починаєте з пакету Starter і хочете додати більше предметів, ми скоригуємо вартість відповідним чином.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="trial-area pt-120 pb-120">
+            <div class="container">
+                <div class="trial__wrp">
+                    <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Не впевнені, який пакет підходить саме вам? <br> Давайте розберемося разом</h2>
+                    <p class="trial__subtitle wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">Запишіться на безкоштовну 30-хвилинну консультацію. Ми порекомендуємо найкращий пакет для ваших цілей.</p>
+                    <a href="https://dashboard.lumind.space/node/demo/page-register" class="btn-one-light wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Записатися на безкоштовну консультацію <i class="fa-light fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="footer__wrp pt-100 pb-100">
+                <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <a href="index.html" class="logo mb-30"><img src="assets/images/logo/logo.svg" alt="PrivatLesson logo"></a>
+                    <p>Приватне індивідуальне репетиторство з математики, німецької та англійської мов. Персоналізовані уроки для будь-якого рівня.</p>
+                    <ul class="mt-25">
+                        <li><i class="fa-solid fa-location-dot me-2"></i><a href="#0" class="p-0">Prague, Czech Republic</a></li>
+                        <li class="mt-2"><i class="fa-solid fa-phone me-2"></i><a href="tel:+420123456789" class="p-0">+420 123 456 789</a></li>
+                        <li class="mt-2"><i class="fa-solid fa-envelope me-2"></i><a href="mailto:hello@privatlesson.cz" class="p-0">hello@privatlesson.cz</a></li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#0" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#0" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#0" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Швидкі посилання</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-regular fa-angles-right me-1"></i> Головна</a></li>
+                        <li><a href="courses.html"><i class="fa-regular fa-angles-right me-1"></i> Курси</a></li>
+                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i> Про нас</a></li>
+                        <li><a href="contact.html"><i class="fa-regular fa-angles-right me-1"></i> Контакти</a></li>
+                        <li><a href="vacancies.html"><i class="fa-regular fa-angles-right me-1"></i> Вакансії</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Наші предмети</h3>
+                    <ul>
+                        <li><a href="courses.html"><i class="fa-regular fa-angles-right me-1"></i> Математика</a></li>
+                        <li><a href="courses.html"><i class="fa-regular fa-angles-right me-1"></i> Німецька мова</a></li>
+                        <li><a href="courses.html"><i class="fa-regular fa-angles-right me-1"></i> Англійська мова</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item footer-subscribe wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Будьте в курсі</h3>
+                    <p class="mb-20">Підписуйтесь на поради, ресурси та спеціальні пропозиції щодо приватних уроків.</p>
+                    <div class="footer-newsletter">
+                        <input type="email" placeholder="Ваша електронна адреса">
+                        <button>Підписатися</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
+                    <p>&copy; 2025 <a href="#0" class="primary-color">PrivatLesson</a>. Усі права захищено.</p>
+                    <ul class="d-flex align-items-center gap-4">
+                        <li><a href="#0">Умови використання</a></li>
+                        <li><a href="#0">Політика конфіденційності</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

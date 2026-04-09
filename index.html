@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivatLesson — Приватне репетиторство з математики, німецької та англійської</title>
+    <meta name="description" content="Індивідуальне репетиторство з математики, німецької та англійської мов. Уроки, підлаштовані під вас, гнучкий розклад і перевірені результати. Запишіться на безкоштовне пробне заняття сьогодні.">
+    <!-- Favicon img -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Google Fonts — Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Bootstarp min css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- All min css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Swiper bundle min css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Magnigic popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- PrivatLesson Design System -->
+    <link rel="stylesheet" href="assets/css/privatlesson.css">
+</head>
+
+<body>
+
+    <!-- Preloader area start -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/preloader.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader area end -->
+
+
+    <!-- Header area start here -->
+    <header class="header-area sticky-header">
+        <div class="header__container">
+            <div class="header__main">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo/logo.svg" alt="logo">
+                </a>
+                <div class="main-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="courses.html">Курси</a></li>
+                            <li><a href="about.html">Про нас</a></li>
+                            <li><a href="contact.html">Контакти</a></li>
+                            <li><a href="vacancies.html">Вакансії</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <a href="https://dashboard.lumind.space/node/demo/page-register" class="btn-one nav-cta d-none d-lg-inline-flex">Безкоштовне заняття <i class="fa-light fa-arrow-right-long"></i></a>
+                <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#menubar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header area end here -->
+
+    <!-- Sidebar area start here -->
+    <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
+        <div class="offcanvas-header">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo/logo-light.svg" alt="logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
+                    class="fa-regular fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body sidebar__body">
+            <div class="mobile-menu overflow-hidden"></div>
+        </div>
+    </div>
+    <!-- Sidebar area end here -->
+
+    <main>
+
+        <!-- Banner area start here -->
+        <section class="banner-light">
+            <!-- Top-left: grid of × cross marks (green) -->
+            <div class="banner__shape-crosses">
+                <svg width="100" height="68" viewBox="0 0 100 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#10B981" stroke-width="2.2" stroke-linecap="round">
+                        <line x1="3" y1="3" x2="13" y2="13"/><line x1="13" y1="3" x2="3" y2="13"/>
+                        <line x1="31" y1="3" x2="41" y2="13"/><line x1="41" y1="3" x2="31" y2="13"/>
+                        <line x1="59" y1="3" x2="69" y2="13"/><line x1="69" y1="3" x2="59" y2="13"/>
+                        <line x1="87" y1="3" x2="97" y2="13"/><line x1="97" y1="3" x2="87" y2="13"/>
+                        <line x1="3" y1="29" x2="13" y2="39"/><line x1="13" y1="29" x2="3" y2="39"/>
+                        <line x1="31" y1="29" x2="41" y2="39"/><line x1="41" y1="29" x2="31" y2="39"/>
+                        <line x1="59" y1="29" x2="69" y2="39"/><line x1="69" y1="29" x2="59" y2="39"/>
+                        <line x1="87" y1="29" x2="97" y2="39"/><line x1="97" y1="29" x2="87" y2="39"/>
+                        <line x1="3" y1="55" x2="13" y2="65"/><line x1="13" y1="55" x2="3" y2="65"/>
+                        <line x1="31" y1="55" x2="41" y2="65"/><line x1="41" y1="55" x2="31" y2="65"/>
+                        <line x1="59" y1="55" x2="69" y2="65"/><line x1="69" y1="55" x2="59" y2="65"/>
+                        <line x1="87" y1="55" x2="97" y2="65"/><line x1="97" y1="55" x2="87" y2="65"/>
+                    </g>
+                </svg>
+            </div>
+            <!-- Bottom-left: small green circle outlines -->
+            <div class="banner__shape-circles-bl">
+                <svg width="85" height="65" viewBox="0 0 85 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="14" cy="51" r="11" stroke="#10B981" stroke-width="2.5" opacity="0.55"/>
+                    <circle cx="42" cy="55" r="8"  stroke="#10B981" stroke-width="2.5" opacity="0.45"/>
+                    <circle cx="68" cy="48" r="13" stroke="#10B981" stroke-width="2.5" opacity="0.35"/>
+                </svg>
+            </div>
+            <!-- Center: red zigzag (ECG line) -->
+            <div class="banner__shape-zigzag-1">
+                <svg width="55" height="28" viewBox="0 0 55 28" fill="none" stroke="#F43F5E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="2 14 10 4 18 24 26 4 34 24 42 4 50 14 54 10"></polyline>
+                </svg>
+            </div>
+            <!-- Top-right: blue wavy squiggle -->
+            <div class="banner__shape-squiggle">
+                <svg width="68" height="44" viewBox="0 0 68 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 22 C9 6, 20 6, 24 22 C28 38, 39 38, 44 22 C49 6, 60 6, 64 22" stroke="#4F46E5" stroke-width="3" stroke-linecap="round" fill="none"/>
+                    <path d="M4 32 C9 16, 20 16, 24 32 C28 44, 39 44, 44 32 C49 16, 60 16, 64 32" stroke="#4F46E5" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.45"/>
+                </svg>
+            </div>
+
+            <!-- Large background blobs behind image -->
+            <div class="banner__shape-blob-green"></div>
+            <div class="banner__shape-blob-yellow"></div>
+
+            <!-- Background curved lines matching the reference photo -->
+            <div class="banner__shape-lines" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; overflow: hidden;">
+                <svg width="100%" height="100%" viewBox="0 0 1920 800" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Top-right Loop -->
+                    <path d="M 1650,-50 C 1600,100 1800,200 1720,250 C 1660,290 1620,220 1680,180 C 1740,140 1850,220 1950,200" stroke="rgba(16, 185, 129, 0.4)" stroke-width="2" stroke-linecap="round" fill="none"/>
+                    
+                    <!-- Bottom-left sweep and main loops (routed cleanly beneath text and through gaps) -->
+                    <path d="M -50,700 C 300,800 600,800 850,700 C 1050,620 1100,500 1020,350 C 940,200 880,300 1000,450 C 1120,600 1200,750 1400,750 C 1600,750 1800,600 2000,400" stroke="rgba(16, 185, 129, 0.4)" stroke-width="2" stroke-linecap="round" fill="none"/>
+                </svg>
+            </div>
+
+            <div class="container">
+                <div class="banner__content-wrap">
+                    
+                    <!-- Left Content -->
+                    <div class="banner__content">
+                        <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ПРИВАТНЕ РЕПЕТИТОРСТВО</h5>
+                        <h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Навчайся розумніше,
+                            <br><span class="primary-color">Досягай більшого</span>
+                        </h1>
+                        <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            Індивідуальні приватні уроки з математики, німецької та англійської мов.
+                            Підлаштовані під ваш темп, цілі та стиль навчання.
+                        </p>
+                        <a href="contact.html" class="btn-one mt-40 wow fadeInUp" data-wow-delay="600ms"
+                            data-wow-duration="1500ms">Переглянути курси <i class="fa-light fa-arrow-right-long"></i></a>
+                    </div>
+
+                    <!-- Right Image & Cards -->
+                    <div class="banner__hero-img wow fadeInRight d-none d-lg-block" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <!-- Two-image cluster -->
+                        <div class="banner__img-cluster">
+                            <!-- Main framed image (right) -->
+                            <div class="banner__main-framed">
+                                <img src="assets/images/team/team-image1.png" alt="Tutor teaching">
+                            </div>
+                            <!-- Secondary framed photo bottom-left -->
+                            <div class="banner__secondary-framed">
+                                <img src="assets/images/team/team-image3.jpg" alt="Student learning">
+                            </div>
+                        </div>
+
+                        <!-- Floating Stat Card (Top Left) -->
+                        <div class="floating-stat stat-1">
+                            <div class="stat-icon icon-green">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2EB97E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="stat-text">
+                                <h4 style="font-weight: 700; color: #181818;">70+</h4>
+                                <span style="font-size: 14px; font-weight: 500; color: #64748b;">Онлайн-учнів</span>
+                            </div>
+                        </div>
+
+                        <!-- Floating Stat Card (Bottom Right) -->
+                        <div class="floating-stat stat-3">
+                            <div class="stat-icon icon-purple">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8355F8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="stat-text">
+                                <h4 style="font-weight: 700; color: #181818;">98%</h4>
+                                <span style="font-size: 14px; font-weight: 500; color: #64748b;">Успішність</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Banner area end here -->
+
+        <!-- Features Row -->
+        <div class="container mt-5 mb-5">
+            <div class="features-row wow fadeInUp mt-5" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="feature-card">
+                    <div class="feature-card__icon">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+                    <h4>Індивідуальний підхід</h4>
+                    <p>Кожен урок розроблений з урахуванням ваших унікальних сильних сторін, слабких місць та цілей</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">
+                        <i class="fa-solid fa-calendar-check"></i>
+                    </div>
+                    <h4>Гнучкий розклад</h4>
+                    <p>Записуйтесь на заняття у зручний для вас час — вранці, ввечері або у вихідні</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h4>Особистий кабінет учня</h4>
+                    <p>Записуйтесь на заняття, відстежуйте прогрес та переглядайте всі показники навчання в одному місці</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Metrics Strip -->
+        <section class="metrics-strip wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div class="container">
+                <div class="metrics-strip__inner">
+                    <div class="metrics-strip__item">
+                        <h3><span class="count">500</span>+</h3>
+                        <p>Задоволених учнів</p>
+                    </div>
+                    <div class="metrics-strip__item">
+                        <h3><span class="count">8</span>+</h3>
+                        <p>Років досвіду</p>
+                    </div>
+                    <div class="metrics-strip__item">
+                        <h3><span class="count">3</span></h3>
+                        <p>Основних предмети</p>
+                    </div>
+                    <div class="metrics-strip__item">
+                        <h3><span class="count">98</span>%</h3>
+                        <p>Рівень задоволеності</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Metrics Strip end -->
+
+        <!-- Courses area start here -->
+        <div id="courses" class="courses-stack">
+            <div class="courses-stack__sticky">
+
+                <!-- Mathematics -->
+                <div class="course-card course-card--math" data-card="0">
+                    <div class="course-card__flag-stripe"></div>
+                    <div class="course-card__inner">
+                        <div class="course-card__content">
+                            <span class="course-card__label">Курс 01</span>
+                            <h2 class="course-card__title">Математика</h2>
+                            <p class="course-card__desc">Від базової арифметики до вищої математики. Будуємо впевненість крок за кроком — у вашому темпі, відповідно до вашої програми.</p>
+                            <div class="course-card__meta">
+                                <div class="course-card__meta-item"><i class="fa-regular fa-clock"></i> Від 390 крон / заняття</div>
+                                <div class="course-card__meta-item"><i class="fa-regular fa-book"></i> 3 тарифні плани</div>
+                            </div>
+                            <a href="courses.html#math-bundles" class="course-card__btn">Дізнатися більше <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                        <div class="course-card__icon">
+                            <i class="fa-solid fa-square-root-variable"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- German -->
+                <div class="course-card course-card--german" data-card="1">
+                    <div class="course-card__flag-stripe"></div>
+                    <div class="course-card__inner">
+                        <div class="course-card__content">
+                            <span class="course-card__label">Курс 02</span>
+                            <h2 class="course-card__title">Німецька мова</h2>
+                            <p class="course-card__desc">Розмовна мова, граматика та підготовка до іспитів — від A1 до C2. Викладачі-носії мови супроводжують вас на кожному кроці.</p>
+                            <div class="course-card__meta">
+                                <div class="course-card__meta-item"><i class="fa-regular fa-clock"></i> Від 390 крон / заняття</div>
+                                <div class="course-card__meta-item"><i class="fa-regular fa-book"></i> 3 тарифні плани</div>
+                            </div>
+                            <a href="courses.html#german-bundles" class="course-card__btn">Дізнатися більше <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                        <div class="course-card__icon">
+                            <i class="fa-solid fa-language"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English -->
+                <div class="course-card course-card--english" data-card="2">
+                    <div class="course-card__flag-stripe"></div>
+                    <div class="course-card__inner">
+                        <div class="course-card__content">
+                            <span class="course-card__label">Курс 03</span>
+                            <h2 class="course-card__title">Англійська мова</h2>
+                            <p class="course-card__desc">Загальна, ділова та академічна англійська з CELTA-сертифікованими викладачами. Від A1 до C2 — або підготовка до IELTS і Cambridge.</p>
+                            <div class="course-card__meta">
+                                <div class="course-card__meta-item"><i class="fa-regular fa-clock"></i> Від 390 крон / заняття</div>
+                                <div class="course-card__meta-item"><i class="fa-regular fa-book"></i> 3 тарифні плани</div>
+                            </div>
+                            <a href="courses.html#english-bundles" class="course-card__btn">Дізнатися більше <i class="fa-light fa-arrow-right-long"></i></a>
+                        </div>
+                        <div class="course-card__icon">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Courses area end here -->
+
+        <!-- Platform Section -->
+        <section class="platform-area">
+            <div class="container">
+                <div class="platform__inner">
+
+                    <!-- Left: copy & features -->
+                    <div class="platform__left wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1200ms">
+                        <span class="platform__badge">Платформа для учнів</span>
+                        <h2 class="platform__title">Ваш шлях навчання,<br><span>повністю у ваших руках</span></h2>
+                        <p class="platform__desc">Наша платформа для учнів надає вам повний контроль — записуйтесь на заняття будь-коли, відстежуйте прогрес з усіх предметів та переглядайте всю історію навчання в одному зрозумілому кабінеті.</p>
+
+                        <div class="platform__features">
+                            <div class="platform__feature">
+                                <div class="platform__feature-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                                <div class="platform__feature-text">
+                                    <h5>Розумне планування</h5>
+                                    <p>Обирайте будь-який вільний часовий слот — вранці, ввечері або у вихідні. Перенесіть заняття в один клік.</p>
+                                </div>
+                            </div>
+                            <div class="platform__feature">
+                                <div class="platform__feature-icon">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                </div>
+                                <div class="platform__feature-text">
+                                    <h5>Відстеження прогресу</h5>
+                                    <p>Спостерігайте за своїм розвитком у наочних графіках та позначках досягнень з кожного предмета.</p>
+                                </div>
+                            </div>
+                            <div class="platform__feature">
+                                <div class="platform__feature-icon">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                </div>
+                                <div class="platform__feature-text">
+                                    <h5>Історія занять</h5>
+                                    <p>Переглядайте нотатки, матеріали та підсумки кожного пройденого уроку в будь-який час.</p>
+                                </div>
+                            </div>
+                            <div class="platform__feature">
+                                <div class="platform__feature-icon">
+                                    <i class="fa-solid fa-bell"></i>
+                                </div>
+                                <div class="platform__feature-text">
+                                    <h5>Розумні нагадування</h5>
+                                    <p>Отримуйте сповіщення перед кожним заняттям та не пропускайте майбутні завдання.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="https://dashboard.lumind.space/node/demo/page-register" class="btn-one platform__cta">Отримати доступ до платформи <i class="fa-light fa-arrow-right-long"></i></a>
+                    </div>
+
+                    <!-- Right: dashboard mockup -->
+                    <div class="platform__right wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1200ms">
+                        <div class="dash-mock">
+                            <!-- Window chrome -->
+                            <div class="dash-mock__header">
+                                <div class="dash-mock__dots">
+                                    <span class="dash-mock__dot dash-mock__dot--red"></span>
+                                    <span class="dash-mock__dot dash-mock__dot--yellow"></span>
+                                    <span class="dash-mock__dot dash-mock__dot--green"></span>
+                                </div>
+                                <span class="dash-mock__win-title">Кабінет учня</span>
+                                <div class="dash-mock__avatar">A</div>
+                            </div>
+                            <!-- Tabs -->
+                            <div class="dash-mock__tabs">
+                                <span class="dash-mock__tab dash-mock__tab--active">Огляд</span>
+                                <span class="dash-mock__tab">Розклад</span>
+                                <span class="dash-mock__tab">Прогрес</span>
+                                <span class="dash-mock__tab">Історія</span>
+                            </div>
+                            <!-- Stats row -->
+                            <div class="dash-mock__stats">
+                                <div class="dash-mock__stat">
+                                    <span class="dash-mock__stat-num">12</span>
+                                    <span class="dash-mock__stat-label">Занять</span>
+                                </div>
+                                <div class="dash-mock__stat">
+                                    <span class="dash-mock__stat-num">36h</span>
+                                    <span class="dash-mock__stat-label">Вивчено</span>
+                                </div>
+                                <div class="dash-mock__stat">
+                                    <span class="dash-mock__stat-num">98%</span>
+                                    <span class="dash-mock__stat-label">Відвідуваність</span>
+                                </div>
+                            </div>
+                            <!-- Next session -->
+                            <div class="dash-mock__section">
+                                <span class="dash-mock__section-label">Наступне заняття</span>
+                                <div class="dash-mock__session">
+                                    <div class="dash-mock__session-icon">
+                                        <i class="fa-solid fa-square-root-variable"></i>
+                                    </div>
+                                    <div class="dash-mock__session-info">
+                                        <strong>Математика</strong>
+                                        <span>Завтра, 10:00 &mdash; 60 хв</span>
+                                    </div>
+                                    <span class="dash-mock__session-badge">Підтверджено</span>
+                                </div>
+                            </div>
+                            <!-- Progress bars -->
+                            <div class="dash-mock__section">
+                                <span class="dash-mock__section-label">Прогрес з предметів</span>
+                                <div class="dash-mock__progress-item">
+                                    <div class="dash-mock__progress-meta">
+                                        <span>Математика</span><span>78%</span>
+                                    </div>
+                                    <div class="dash-mock__bar"><div class="dash-mock__bar-fill dash-mock__bar-fill--blue" style="width:78%"></div></div>
+                                </div>
+                                <div class="dash-mock__progress-item">
+                                    <div class="dash-mock__progress-meta">
+                                        <span>Німецька</span><span>65%</span>
+                                    </div>
+                                    <div class="dash-mock__bar"><div class="dash-mock__bar-fill dash-mock__bar-fill--yellow" style="width:65%"></div></div>
+                                </div>
+                                <div class="dash-mock__progress-item">
+                                    <div class="dash-mock__progress-meta">
+                                        <span>Англійська</span><span>91%</span>
+                                    </div>
+                                    <div class="dash-mock__bar"><div class="dash-mock__bar-fill dash-mock__bar-fill--green" style="width:91%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating badges -->
+                        <div class="platform__float-badge platform__float-badge--1">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>Оновлення в реальному часі</span>
+                        </div>
+                        <div class="platform__float-badge platform__float-badge--2">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>Безпечний доступ</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Platform Section end -->
+
+        <!-- Testimonial area start here -->
+        <section class="testimonial-area pt-120 pb-120">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="swiper testimonial__slider-image">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial__image image">
+                                        <img src="assets/images/testimonial/testimonial-image1.png" alt="image">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial__image image">
+                                        <img src="assets/images/testimonial/testimonial-image1.png" alt="image">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial__image image">
+                                        <img src="assets/images/testimonial/testimonial-image1.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial__right-item pl-40">
+                            <div class="section-header mb-40">
+                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ВІДГУКИ</h5>
+                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Що кажуть наші <span>учні</span></h2>
+                            </div>
+                            <div class="swiper testimonial__slider wow fadeInDown" data-wow-delay="200ms"
+                                data-wow-duration="1500ms">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <p class="fw-500 fs-18">Мій син роками мав труднощі з математикою, але вже після двох місяців приватних занять його оцінки значно покращились. Викладач пояснював усе з терпінням і зробив предмет цікавим.</p>
+                                            <div class="d-flex align-items-center justify-content-between gap-4 mt-30">
+                                                <div>
+                                                    <h4>Maria Kowalski</h4>
+                                                    <span>Батьки — учень з математики</span>
+                                                    <div class="star mt-1">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="dot testimonial__dot"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <p class="fw-500 fs-18">Мені потрібно було скласти іспит B2 з німецької для вступу до університету. Індивідуальні заняття були ідеально підлаштовані під мої слабкі місця. Я склала з першої спроби!</p>
+                                            <div class="d-flex align-items-center justify-content-between gap-4 mt-30">
+                                                <div>
+                                                    <h4>Olena Petrova</h4>
+                                                    <span>Учениця з німецької</span>
+                                                    <div class="star mt-1">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="dot testimonial__dot"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial__item">
+                                            <p class="fw-500 fs-18">Уроки англійської допомогли мені почуватись впевнено на ділових зустрічах. Мій викладач зосередився на реальних розмовах і навичках презентації, а не лише на граматичних вправах.</p>
+                                            <div class="d-flex align-items-center justify-content-between gap-4 mt-30">
+                                                <div>
+                                                    <h4>Tomas Horak</h4>
+                                                    <span>Учень з англійської</span>
+                                                    <div class="star mt-1">
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                                        <i class="fa-sharp fa-solid fa-star disabled"></i>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="dot testimonial__dot"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial area end here -->
+
+
+        <!-- Trial area start here -->
+        <section class="trial-area pt-120 pb-120">
+            <div class="container">
+                <div class="trial__wrp">
+                    <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Готові побачити реальні результати? <br> Запишіться на безкоштовне пробне заняття</h2>
+                    <p class="trial__subtitle wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">Індивідуальні заняття, підлаштовані під ваші цілі. Жодних зобов'язань.</p>
+                    <a href="https://dashboard.lumind.space/node/demo/page-register" class="btn-one-light wow fadeInUp" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">Розпочати сьогодні <i class="fa-light fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Trial area end here -->
+
+    </main>
+
+    <!-- Footer area start here -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="footer__wrp pt-100 pb-100">
+                <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <a href="index.html" class="logo mb-30">
+                        <img src="assets/images/logo/logo.svg" alt="logo">
+                    </a>
+                    <p>Приватне індивідуальне репетиторство з математики, німецької та англійської мов. Персоналізовані уроки для будь-якого рівня.</p>
+                    <ul class="mt-25">
+                        <li><i class="fa-solid fa-location-dot me-2"></i><a href="#0" class="p-0">Прага, Чехія</a></li>
+                        <li class="mt-2"><i class="fa-solid fa-phone me-2"></i><a href="tel:+420123456789" class="p-0">+420 123 456 789</a></li>
+                        <li class="mt-2"><i class="fa-solid fa-envelope me-2"></i><a href="mailto:hello@privatlesson.cz" class="p-0">hello@privatlesson.cz</a></li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#0" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#0" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#0" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Швидкі посилання</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fa-regular fa-angles-right me-1"></i> Головна</a></li>
+                        <li><a href="courses.html"><i class="fa-regular fa-angles-right me-1"></i> Курси</a></li>
+                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i> Про нас</a></li>
+                        <li><a href="contact.html"><i class="fa-regular fa-angles-right me-1"></i> Контакти</a></li>
+                        <li><a href="vacancies.html"><i class="fa-regular fa-angles-right me-1"></i> Вакансії</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <h3 class="footer-title">Наші предмети</h3>
+                    <ul>
+                        <li><a href="courses.html"><i class="fa-regular fa-angles-right me-1"></i> Математика</a></li>
+                        <li><a href="courses.html"><i class="fa-regular fa-angles-right me-1"></i> Німецька мова</a></li>
+                        <li><a href="courses.html"><i class="fa-regular fa-angles-right me-1"></i> Англійська мова</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item footer-subscribe wow fadeInUp" data-wow-delay="600ms"
+                    data-wow-duration="1500ms">
+                    <h3 class="footer-title">Будьте в курсі</h3>
+                    <p class="mb-20">Підписуйтесь, щоб отримувати поради, матеріали та спеціальні пропозиції на приватні уроки.</p>
+                    <div class="footer-newsletter">
+                        <input type="email" placeholder="Ваша електронна адреса">
+                        <button>Підписатися</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
+                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; 2025
+                        <a href="#0" class="primary-color">PrivatLesson</a>. Усі права захищено.</p>
+                    <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">
+                        <li><a href="#0">Умови та положення</a></li>
+                        <li><a href="#0">Політика конфіденційності</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer area end here -->
+
+    <!-- Back to top area start here -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Back to top area end here -->
+
+    <!-- Jquery 3. 7. 1 Min Js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Mean menu Js -->
+    <script src="assets/js/meanmenu.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific popup min Js -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Nice select min Js -->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!-- Parallax Js -->
+    <script src="assets/js/parallax.js"></script>
+    <!-- Waypoints Js -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!-- Script Js -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Courses sticky stacking cards -->
+    <script>
+    (function () {
+        var stack = document.querySelector('.courses-stack');
+        var cards = document.querySelectorAll('.course-card');
+        var count = cards.length;
+        if (!stack || count < 2) return;
+
+        var scrollPerCard = window.innerHeight;
+        stack.style.height = (count * scrollPerCard) + 'px';
+
+        function onScroll() {
+            var rect = stack.getBoundingClientRect();
+            var scrolled = -rect.top;
+            var progress = Math.max(0, scrolled) / scrollPerCard;
+            var activeIndex = Math.min(Math.floor(progress), count - 1);
+            var frac = progress - activeIndex;
+
+            for (var i = 0; i < count; i++) {
+                var card = cards[i];
+                if (i < activeIndex) {
+                    card.style.transform = 'translateY(0)';
+                    card.style.opacity = '0';
+                    card.style.zIndex = i;
+                    card.style.pointerEvents = 'none';
+                } else if (i === activeIndex) {
+                    card.style.transform = 'translateY(0)';
+                    card.style.opacity = '1';
+                    card.style.zIndex = count - i;
+                    card.style.pointerEvents = 'auto';
+                } else if (i === activeIndex + 1) {
+                    var translateY = (1 - frac) * 100;
+                    card.style.transform = 'translateY(' + translateY + '%)';
+                    card.style.opacity = '1';
+                    card.style.zIndex = count + 1;
+                } else {
+                    card.style.transform = 'translateY(100%)';
+                    card.style.opacity = '1';
+                    card.style.zIndex = 0;
+                }
+            }
+        }
+
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', function () {
+            scrollPerCard = window.innerHeight;
+            stack.style.height = (count * scrollPerCard) + 'px';
+            onScroll();
+        });
+        onScroll();
+    })();
+    </script>
+</body>
+
+</html>
