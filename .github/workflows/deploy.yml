@@ -26,6 +26,6 @@ jobs:
             docker run -d \
               --name educational-startup-website \
               --restart always \
-              -p 127.0.0.1:8080:8000 \
+              -p 127.0.0.1:8080:80 \
               educational-startup-website:latest
 
