@@ -51,4 +51,29 @@ nohup python3 -m http.server 8080 > server.log 2>&1 &
 
 Если нужен запуск в контейнере, используйте `Dockerfile` в корне проекта.
 
+## GitHub Actions: автодеплой на сервер
+
+При каждом `push` в ветку `master` workflow `/.github/workflows/deploy.yml` подключается к серверу по SSH и выполняет:
+
+```bash
+cd /var/www/educational-startup-website-main
+git pull origin master
+docker build -t educational-startup-website:latest .
+docker rm -f educational-startup-website || true
+docker run -d --name educational-startup-website --restart always -p 8080:8080 educational-startup-website:latest
+```
+
+### Что нужно добавить в Secrets репозитория
+
+- `SERVER_HOST` - IP или домен сервера
+- `SERVER_USER` - пользователь SSH
+- `SERVER_SSH_KEY` - приватный SSH-ключ (в формате OpenSSH)
+- `SERVER_PORT` - порт SSH (обычно `22`)
+
+### Что должно быть на сервере
+
+- Установлены `git` и `docker`
+- Проект уже склонирован в `/var/www/educational-startup-website-main`
+- У пользователя, указанного в `SERVER_USER`, есть доступ к Docker
+
 
