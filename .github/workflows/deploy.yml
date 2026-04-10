@@ -20,7 +20,7 @@ jobs:
           script: |
             set -e
             cd /home/app/landing/educational-startup-website-main
-            git pull origin master
+            git pull origin main
             docker build -t educational-startup-website:latest .
             docker rm -f educational-startup-website || true
             docker run -d \
